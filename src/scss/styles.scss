@@ -11,21 +11,27 @@ body {
   padding:0;
 
   background-color: $bg-color;
+
+  color: $fg-color;
 }
 
 #container {
   width: 80%;
   max-width: 1500px;
-  min-width: 1200px;
+  min-width: 600px;
 
   margin: auto;
 }
 
 #header {
   display: grid;
+  position: fixed;
+  top: 0;
+
+  width: 80%;
 
   grid-template-rows: 65px;
-  grid-template-columns: 1fr, 1fr;
+  grid-template-columns: 1fr 1fr;
 
   .left {
     grid-column-start: 1;
