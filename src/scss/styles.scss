@@ -1,0 +1,24 @@
+// SCSS Styles for www.hausofbath.com.au
+
+@import 'typeography';
+
+// Set Color variables.
+$bg-color: #000;
+$fg-color: #fff;
+
+body {
+  margin:0;
+  padding:0;
+
+  background-color: $bg-color;
+}
+
+#container {
+  background-color: blue;
+
+  width: 80%;
+  max-width: 1500px;
+  min-width: 1200px;
+
+  margin: auto;
+}
