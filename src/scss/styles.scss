@@ -14,11 +14,32 @@ body {
 }
 
 #container {
-  background-color: blue;
-
   width: 80%;
   max-width: 1500px;
   min-width: 1200px;
 
   margin: auto;
+}
+
+#header {
+  display: grid;
+
+  grid-template-rows: 65px;
+  grid-template-columns: 1fr, 1fr;
+
+  .left {
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  .right {
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    text-align: right;
+  }
 }
