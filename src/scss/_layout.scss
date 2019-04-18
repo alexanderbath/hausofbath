@@ -1,0 +1,54 @@
+section#hero {
+  display: grid;
+  top:0;
+
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 35fr 45fr 30fr;
+
+  height: 100vh;
+  width: 100%;
+
+  .highlights {
+    padding-top: 100px;
+  }
+
+  #hl-one {
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  #hl-two {
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  #hl-three {
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  #hero-text {
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+
+  #desc-text {
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    grid-row-start: 3;
+    grid-row-end: 4;
+  } 
+}
