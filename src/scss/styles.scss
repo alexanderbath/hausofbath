@@ -51,3 +51,13 @@ body {
     text-align: right;
   }
 }
+
+section#hero {
+  article {
+    border-top: 1px solid white;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    padding-top: 5px;
+  }
+}
