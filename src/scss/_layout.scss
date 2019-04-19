@@ -3,10 +3,11 @@ section#hero {
   top:0;
 
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 45fr 35fr 20fr;
+  grid-template-rows: 40fr 35fr 25fr;
 
   height: 100vh;
   min-height: 700px;
+  max-height: 900px;
   width: 100%;
 
   .highlights {
