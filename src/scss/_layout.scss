@@ -6,6 +6,7 @@ section#hero {
   grid-template-rows: 40fr 40fr 20fr;
 
   height: 100vh;
+  min-height: 700px;
   width: 100%;
 
   .highlights {
