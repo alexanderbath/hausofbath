@@ -17,7 +17,17 @@ h1 {
   line-height: 5.5vw;
 }
 
-// Limit maximum H1 text size to 90px.
+h2 {
+  padding:0;
+  margin:0;
+
+  font-family: Merriweather, sans-serif;
+  font-weight: 400;
+
+  font-size: 20px;
+}
+
+// Limit maximum text sizes for responsive text.
 @media screen and (min-width: 1500px) {
   h1 {
     font-size: 90px;
