@@ -16,14 +16,6 @@ body {
   color: $fg-color;
 }
 
-#container {
-  width: 80%;
-  max-width: 1200px;
-  min-width: 600px;
-
-  margin: auto;
-}
-
 #header {
   display: grid;
   position: fixed;
@@ -32,6 +24,10 @@ body {
   width: 80%;
   max-width: 1200px;
   min-width: 600px;
+
+  right:0;
+  left:0;
+  margin: auto;
 
   grid-template-rows: 65px;
   grid-template-columns: 1fr 1fr;

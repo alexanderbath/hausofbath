@@ -5,6 +5,12 @@ section#hero {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 40fr 35fr 25fr;
 
+  width: 80%;
+  max-width: 1200px;
+  min-width: 600px;
+
+  margin: auto;
+
   height: 100vh;
   min-height: 700px;
   max-height: 900px;
