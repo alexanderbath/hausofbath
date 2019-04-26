@@ -59,3 +59,10 @@ section#hero {
     grid-row-end: 4;
   } 
 }
+
+@media screen and (max-width: 1165px) {
+  section#hero {
+    background-color: red;
+  }
+}
+
