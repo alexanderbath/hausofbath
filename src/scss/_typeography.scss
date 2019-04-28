@@ -79,6 +79,23 @@ section#about-me {
     margin-top: 5px;
 
     font-size: 16px;
+  }
+
+  span.hero {
+    display: inline-block;
+    margin-top: 75px;
+    margin-right: 15vw;
+
+    font-family: Merriweather, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+  }
+
+  a {
+    display: inline-block;
+    margin-top: 5px;
+
+    font-size: 16px;
     color: $grey;
   }
 }
