@@ -60,9 +60,34 @@ section#hero {
   } 
 }
 
+section#about-me {
+  display: grid;
+
+  padding-top: 20vh;
+  padding-bottom: 15vh;
+
+  grid-template-rows: 1fr;
+  grid-template-columns: 6fr 4fr;
+
+  width: 80%;
+  max-width: 1200px;
+  min-width: 600px;
+
+  margin: auto;
+
+  .left {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .right {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+}
+
 @media screen and (max-width: 1165px) {
   section#hero {
     background-color: red;
   }
 }
-
