@@ -89,8 +89,19 @@ section#work-prices {
 
 section#work-helbigs {
   background: url('../images/helbigs-bg.jpg') no-repeat 50% 50%;
+
+  img {
+    width: 40vw;
+    padding-left: 30px;
+    margin-top: 10vh;
+  }
 }
 
 section#work-abpm {
   background: url('../images/abpm-bg.jpg') no-repeat 50% 50%;
+
+  img {
+    width: 35vw;
+    padding-right: 30px;
+  }
 }
