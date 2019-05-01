@@ -125,6 +125,16 @@ section#work-helbigs, section#work-abpm {
   }
 }
 
+section#footer {
+  width: 80%;
+  margin: auto;
+  max-width: 1200px;
+  min-width: 600px;
+
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
 @media screen and (max-width: 1165px) {
   section#hero {
     background-color: red;
