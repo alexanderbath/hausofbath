@@ -71,3 +71,20 @@ section#about-me {
     margin-bottom: 40px;
   }
 }
+
+section#work-prices {
+  background: url('../images/prices-bg.jpg') no-repeat 50% 50%;
+
+  img {
+    width: 40vw;
+    max-width: 600px;
+  }
+}
+
+section#work-helbigs {
+  background: url('../images/helbigs-bg.jpg') no-repeat 50% 50%;
+}
+
+section#work-abpm {
+  background: url('../images/abpm-bg.jpg') no-repeat 50% 50%;
+}
