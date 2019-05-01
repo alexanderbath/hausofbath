@@ -97,6 +97,9 @@ section#work-prices {
   div#grid-container {
     width: 80%;
     margin: auto;
+    max-width: 1200px;
+    min-width: 600px;
+
     display: grid;
 
     grid-template-rows: 1fr;
