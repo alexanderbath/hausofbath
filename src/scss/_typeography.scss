@@ -142,7 +142,7 @@ section.work {
 section#footer {
   form {
     margin-top: 20px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 
     input[type=text]{
       padding:0;
@@ -186,5 +186,31 @@ section#footer {
       font-weight: 700;
       font-size: 16px;
     }
+  }
+
+  div.footer-menu-container {
+    span {
+      display: block;
+
+      font-size: 14px;
+    }
+
+    a {
+      display: block;
+      font-size: 14px;
+      color: $grey;
+      text-decoration: none;
+
+      &:hover {
+        color: white;
+      }
+    }
+  }
+
+  span.copyright {
+    display: block;
+
+    font-size: 14px;
+    padding-top: 10px;
   }
 }
