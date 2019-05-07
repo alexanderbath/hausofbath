@@ -165,3 +165,10 @@ section#footer {
     background-color: red;
   }
 }
+
+@media screen and (min-height: 900px) {
+  section#about-me {
+    padding-top: 75px;
+    padding-bottom: 150px;
+  }
+}
