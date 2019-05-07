@@ -10,6 +10,11 @@ a {
   text-decoration: none;
 }
 
+.crossed {
+  text-decoration: line-through;
+  color: $grey;
+}
+
 // Headings
 h1 {
   padding:0;
