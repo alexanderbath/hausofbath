@@ -1,0 +1,20 @@
+@media screen and (max-width: 1165px) {
+  section#hero {
+    width: 90% !important;
+
+    div#hero-text h1 {
+      padding-top: 60px;
+    }
+  }
+
+  section#work-prices img {
+    margin-top: 35vh !important;
+  }
+}
+
+@media screen and (min-height: 900px) {
+  section#about-me {
+    padding-top: 75px;
+    padding-bottom: 150px;
+  }
+}
