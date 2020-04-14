@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Haus of Bath</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Haus of Bath</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <copyright>©2020 Haus of Bath.</copyright>
+    <lastBuildDate>Wed, 08 Apr 2020 08:53:11 +0930</lastBuildDate>
+    
+        <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Showcasing the Prices App</title>
+      <link>/posts/prices-showcase/</link>
+      <pubDate>Wed, 08 Apr 2020 08:53:11 +0930</pubDate>
+      
+      <guid>/posts/prices-showcase/</guid>
+      <description>The Brief Prices is a multi-platform web application designed and built for a local, family run business based in South Australia. We have had a long running working relationship together and it was great to work with them to build the next step towards their modern, digital workspace.
+The salespeople previously carried paper price books to help them perform their day to day tasks, but this made it costly in both time and resources to make even the smallest updates to the pricing data.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

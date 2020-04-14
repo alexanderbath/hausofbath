@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en"><meta charset="utf-8"><meta name="generator" content="Hugo 0.68.3" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark"><title>Showcasing the Prices App&nbsp;&ndash;&nbsp;Haus of Bath</title><link rel="stylesheet" href="/css/core.min.96c00237413bedc5f3b4492ac3a19d4c4ca67cd2d17cb537ae443bdf32e8ac1ec15c2d5bbc83854baa211b076bae2cd1.css" integrity="sha384-lsACN0E77cXztEkqw6GdTEymfNLRfLU3rkQ73zLorB7BXC1bvIOFS6ohGwdrrizR"><body>
+    <div class="base-body"><section id="header" class="site header">
+    <div class="header wrap"><span class="header left-side"><a class="site home" href="/"><span class="site name">Haus of Bath</span></a></span>
+        <span class="header right-side"></span></div></section><div id="content"><div class="article-container"><section class="article header">
+    <h1 class="article title">Showcasing the Prices App</h1><p class="article date">Wednesday, April 8, 2020</p></section><article class="article markdown-body"><p><a target="_blank" rel="noopener noreferrer" 
+  href="/prices.png"><img  src="/prices.png"
+        alt="App Image"/></a></p>
+<h2 id="the-brief">The Brief</h2>
+<p>Prices is a multi-platform web application designed and built for a local, family run business based in South Australia. We have had a long running working relationship together and it was great to work with them to build the next step towards their modern, digital workspace.</p>
+<p>The salespeople previously carried paper price books to help them perform their day to day tasks, but this made it costly in both time and resources to make even the smallest updates to the pricing data. After some thought, we concluded that providing the salespeople with iPads to both supply to the minute pricing data, as well as access to the company’s other internal applications would be a great solution to the problem</p>
+<h2 id="our-solution">Our Solution</h2>
+<p>After a few design revisions, we settled on a UI for the application that was extremely quick and intuitive to use on a tablet screen in a sales situation, where the last thing you need is to be fumbling around trying to find the information you need. The application was equally as nice to use on a desktop browser to be right at hand when the salesperson is back at their desk.</p>
+<p>A menu and sub-menu tree was deemed to be the best UI model, making it easy to pick a top level category and then drill down into the specific data you need at a second&rsquo;s notice, without being too fiddly and precise with the large amount of data we were working with. A clean, simple design was key to ensure readability and usability were at a maximum on both touch devices as well as conventional desktop machines.</p>
+<p>To facilitate quick modifications, a desktop class web application was developed to be used back in the offices by the leadership team, enabling quick changes to the prices that were pushed out to all of the iPad clients immediately with a minimum of effort. This allowed pricing to mirror small changes in import pricing amongst other factors, which was just not possible with the previous system.</p>
+<h2 id="the-technical-stuff">The Technical Stuff</h2>
+<p>Both the frontend and admin panel were built using Angular, with the data being stored and served by an API built using the Django Rest Framework. We built a custom UI interface for the client facing frontend, while the admin panel was build using the brilliant VMWare Clarity framework.</p>
+<p>To make sure the application was flexible enough to store and display whatever data was necessary in the future, rather than storing the price data in firm database structures, each pricelist is simply rendered from HTML. This enables easy editing in the backend using a great WYSIWYG editor for angular called AngularEditor.</p>
+<p>The app was then deployed using Azure’s powerful DevOps pipelines to ease in rapid development and deployment in the future.</p>
+</article></div></div><section id="footer" class="footer"><div class="footer-wrap">
+    <p class="copyright">©2020 Haus of Bath.</p>
+    <p class="powerby"><span>Powered by </span><a href="https://gohugo.io" 
+        target="_blank">Hugo</a><span> and the </span><a href="https://themes.gohugo.io/hugo-notepadium/" 
+        target="_blank">Notepadium</a></p>
+</div></section></div>
+</body>
+
+</html>
