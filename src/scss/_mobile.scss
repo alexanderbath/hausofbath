@@ -195,7 +195,7 @@
 
 @media screen and (min-height: 900px) {
   section#about-me {
-    padding-top: 75px;
-    padding-bottom: 150px;
+    padding-top: 75px !important;
+    padding-bottom: 150px !important;
   }
 }
